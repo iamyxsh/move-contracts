@@ -1,0 +1,15 @@
+{
+  "name": "dextr-contracts-move",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-move": "./scripts/create_new_move.sh $1",
+    "compile": "./scripts/compile.sh $1",
+    "test": "./scripts/test.sh $1",
+    "deploy": "./scripts/deploy.sh $1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
